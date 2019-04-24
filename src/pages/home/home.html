@@ -1,14 +1,24 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color ="dark">
     <ion-title>
-      Ionic Blank
+        The Foundation Of FootBall
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content padding class ="backgroundHome">
+    <br><br>
+  <h3 ion-text color="danger">
+  Welcome to The Foundation Of FootBall App! This is an app that will provide you with information about diffrent Football Competitions and Leagues.
+</h3> 
+<img src="../../assets/imgs/football.png" height="200" width="200">
+ <br><br><br><br>
+<ol><li ion-button color="danger" (click)="openPremierLeague()">Premier League</li> </ol>
+<ol><li ion-button color="danger" (click)="openChampionsLeague()">Champions League</li> </ol>
+<ol><li ion-button color="danger" (click)="openWorldCup()">World Cup</li> </ol>
+
+<br><br><br>
+<ol><li ion-button color="danger" (click)="openDrivers()" class="button1">Back</li> </ol>
+
 </ion-content>

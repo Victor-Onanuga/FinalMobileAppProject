@@ -11,4 +11,19 @@ export class HomePage {
 
   }
 
+  openPremierLeague()
+  {
+    this.navCtrl.push('PremierLeaguePage');
+  }
+
+  openChampionsLeague()
+  {
+    this.navCtrl.push('ChampionsLeaguePage');
+  }
+
+  openWorldCup()
+  {
+    this.navCtrl.push('WorldCupPage');
+  }
+
 }
